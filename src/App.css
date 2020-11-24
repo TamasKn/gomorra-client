@@ -1,2 +1,27 @@
 
+header {
+    display: flex;
+    flex-direction: column;
+}
 
+.header__logo {
+    background-image: url("static/gomorra_logo.jpg");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 28rem;
+}
+
+.header__sub-title {
+    width: fit-content;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header__sub-title p {
+    color: rgba(193, 187, 187, 0.7);
+    font-size: 1.4rem;
+    margin-top: -115px;
+}

@@ -2,10 +2,21 @@
 import './App.css';
 
 function App() {
+
+    const total_season = 4
+
     return (
-        <div>
-            <h1>Gomorra API</h1>
-        </div>
+        <>
+
+            <header>
+                <div className="header__logo"></div>
+                <div className="header__sub-title">
+                    <p>Season 1-{total_season} and L'immortale</p>
+                </div>
+            </header>
+
+
+        </>
     );
 }
 
