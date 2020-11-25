@@ -1,16 +1,15 @@
-
 header {
     display: flex;
     flex-direction: column;
 }
 
 .header__logo {
-    background-image: url("static/gomorra_logo.jpg");
+    background-image: url("../static/gomorra_logo.jpg");
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position: center;
     width: auto;
-    height: 28rem;
+    height: 45rem;
 }
 
 .header__sub-title {
@@ -22,6 +21,16 @@ header {
 
 .header__sub-title p {
     color: rgba(193, 187, 187, 0.7);
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     margin-top: -115px;
+}
+
+@media screen and (max-width: 501px) {
+    .header__logo {
+        background-size: 600px;
+    }
+    .header__sub-title p {
+        font-size: 1.8rem;
+        margin-top: -160px;
+    }
 }
