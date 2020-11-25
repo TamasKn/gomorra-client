@@ -1,13 +1,9 @@
-import '../../css/landing.css';
-import Header from './header/Header'
-import Navbar from "./navbar/Navbar";
 
-function Landing() {
+const Landing = () => {
 
     return (
         <>
-            <Navbar />
-            <Header />
+            <h1>Content</h1>
         </>
     );
 }
