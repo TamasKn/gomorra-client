@@ -18,6 +18,10 @@ nav ul {
     color: #d4d0d0;
 }
 
+.nav__link:hover {
+    color: #efebeb;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -43,6 +47,23 @@ header {
     color: rgba(193, 187, 187, 0.7);
     font-size: 2.4rem;
     margin-top: -115px;
+}
+
+footer {
+    height: 4rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5px;
+    color: #4f4f4f;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 1rem;
+    color: inherit;
 }
 
 @media screen and (max-width: 501px) {
