@@ -60,8 +60,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: 5px;
+    /*position: absolute;*/
+    /*bottom: 5px;*/
     color: var(--tertiary-font-color);
     padding: 2rem 0;
 }

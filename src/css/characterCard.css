@@ -1,0 +1,39 @@
+.card--container {
+    height: 43rem;
+    width: 30rem;
+    border-radius:16px;
+    overflow:hidden;
+    -webkit-box-shadow: 13px 11px 28px 3px rgba(163,163,163,0.24);
+    -moz-box-shadow: 13px 11px 28px 3px rgba(163,163,163,0.24);
+    box-shadow: 13px 11px 28px 3px rgba(163,163,163,0.24);
+    margin: 2rem 2rem;
+    position: relative;
+}
+
+.card--image {
+    height: 83%;
+    width: inherit;
+    background-image: url("https://gomorra-api.herokuapp.com/1.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card--description {
+    width: inherit;
+    position: absolute;
+    bottom: 0;
+    background-color: #242424;
+    transition: all .4s;
+    padding-top: 1rem;
+}
+
+.card--description-name {
+    text-align: center;
+    height: 5rem;
+}
+
+.card--description-infos {
+    padding: 1.4rem 1rem;
+}
+

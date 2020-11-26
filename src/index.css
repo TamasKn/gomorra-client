@@ -7,7 +7,7 @@
 }
 
 /*
-  Responsiveness breakpoints: 550px,  
+  Responsiveness breakpoints: 550px,
 */
 
 :root {
@@ -33,6 +33,7 @@ body {
   font-size: 1.6rem;
   color: var(--primary-font-color);
   background-color: #000000;
+  overflow-x: hidden;
 }
 
 code {
