@@ -2,13 +2,13 @@ import '../../css/main.css'
 
 const Header = () => {
 
-    const total_season = 4
+    const total_seasons = 4
 
     return(
         <header>
             <div className="header__logo"></div>
             <div className="header__sub-title">
-                <p>Season 1-{total_season} and L'immortale</p>
+                <p>Data of season 1-{total_seasons} and L'immortale</p>
             </div>
         </header>
     )
