@@ -37,9 +37,9 @@ const CharacterCard = ({image, name, nickname, occupation, clan, actor, height})
                     {nameFormat(name, nickname)}
                 </div>
                 <div className="card--description-infos">
-                    <p>Occupation: {occupation}</p>
-                    <p>Clan: {clan}</p>
-                    <p>Portrayed by: {actor}</p>
+                    <p>Occupation: <b>{occupation}</b></p>
+                    <p>Clan: <b>{clan}</b></p>
+                    <p>Portrayed by: <b>{actor}</b></p>
                 </div>
 
             </div>
