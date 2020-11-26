@@ -15,11 +15,11 @@ nav ul {
 .nav__link {
     text-decoration: none;
     margin: 1rem;
-    color: #d4d0d0;
+    color: var(--primary-font-color);
 }
 
 .nav__link:hover {
-    color: #efebeb;
+    color: var(--hover-link-color);
 }
 
 header {
@@ -44,9 +44,14 @@ header {
 }
 
 .header__sub-title p {
-    color: rgba(193, 187, 187, 0.7);
+    color: var(--primary-font-color);
     font-size: 2.4rem;
     margin-top: -115px;
+}
+
+.content-wrapper {
+    margin: 3rem 2rem;
+    padding: 1.5rem 0;
 }
 
 footer {
@@ -57,7 +62,7 @@ footer {
     align-items: center;
     position: absolute;
     bottom: 5px;
-    color: #4f4f4f;
+    color: var(--tertiary-font-color);
     padding: 2rem 0;
 }
 
@@ -73,7 +78,7 @@ footer a {
     opacity: 0.4;
 }
 
-@media screen and (max-width: 501px) {
+@media screen and (max-width: 550px) {
     .header__logo {
         background-size: 600px;
     }

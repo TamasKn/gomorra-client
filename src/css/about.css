@@ -1,0 +1,29 @@
+.about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--secondary-font-color);
+}
+
+.about__container h1 {
+    margin-bottom: 1.5rem;
+}
+
+.about__container p {
+    width: 50rem;
+    margin: 1rem 0;
+}
+
+.about__container a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+@media screen and (max-width: 550px) {
+    .about__container {
+        font-size: 1.4rem;
+    }
+    .about__container p {
+        padding: 0 2.5rem;
+    }
+}
