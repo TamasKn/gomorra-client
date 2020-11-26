@@ -32,6 +32,9 @@
 .card--description-name {
     text-align: center;
     height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card--description-infos {

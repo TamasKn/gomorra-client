@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import '../../css/characterCard.css'
 
-const CharacterCard = ({image, name, nickname, occupation, clan, actor}) => {
+const CharacterCard = ({image, name, nickname, occupation, clan, actor, height}) => {
 
     const [cardHover, setCardHover] = useState(false)
 
@@ -31,7 +31,7 @@ const CharacterCard = ({image, name, nickname, occupation, clan, actor}) => {
             />
 
             <div className="card--description"
-                style={(cardHover) ? {height: '34%'} : {height: '17%'}}
+                style={(cardHover) ? {height: `${height}px`} : {height: '17%'}}
             >
                 <div className="card--description-name">
                     {nameFormat(name, nickname)}
