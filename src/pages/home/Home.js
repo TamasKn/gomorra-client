@@ -33,7 +33,7 @@ const Home = () => {
                                 actor={el.actor}
                                 image={el.picture} />
                         ))
-                    : <p>Loading...</p>
+                    : <h3>LOADING...</h3>
                 }
 
             </section>

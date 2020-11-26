@@ -23,7 +23,8 @@
     width: inherit;
     position: absolute;
     bottom: 0;
-    background-color: #242424;
+    color: var(--tertiary-font-color);
+    background-color: var(--primary-font-color);
     transition: all .4s;
     padding-top: 1rem;
 }
