@@ -26,6 +26,8 @@ const Home = () => {
         }
     }, [characters])
 
+    // Getting each card description height and passing to the child
+    // as fit-content breaks the transition
     const getDivHeight = () => {
         const divs = document.getElementsByClassName('card--description')
         const heightArr = []
