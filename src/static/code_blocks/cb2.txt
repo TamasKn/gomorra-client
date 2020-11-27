@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 12,
+            "name": "",
+            "nickname": "'O Track",
+            "occupation": "Dealer, Boss",
+            "clan": "Savastano, Ragazzi del Vicolo",
+            "picture": "https://gomorra-api.herokuapp.com/12.JPG",
+            "status": "Deceased",
+            "seasons": [
+                1,
+                2
+            ],
+            "actor": "Carmine Monaco"
+        }
+    ]
+}

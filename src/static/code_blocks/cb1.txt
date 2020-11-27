@@ -1,0 +1,19 @@
+{
+     "success": true,
+     "data": {
+         "id": 1,
+         "name": "Ciro Di Marzio",
+         "nickname": "Immortale",
+         "occupation": "Enforcer, Boss",
+         "clan": "Savastano, Di Marzio",
+         "picture": "https://gomorra-api.herokuapp.com/1.JPG",
+         "status": "Alive",
+         "seasons": [
+             1,
+             2,
+             3,
+             4.5
+         ],
+         "actor": "Marco D'Amore"
+     }
+ }

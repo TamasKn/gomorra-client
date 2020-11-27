@@ -1,0 +1,47 @@
+.docs__title {
+    text-align: center;
+    margin-bottom: 5.5rem;
+}
+
+.docs__container {
+    display: flex;
+}
+
+.docs__sidebar {
+    white-space: nowrap;
+    width: 20vw;
+    margin-top: 2rem;
+}
+
+.docs__sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.docs__sidebar--sublist {
+    text-indent: 2rem;
+}
+
+@media (min-height: 300px) {
+    .docs__sidebar ul {
+        position: sticky;
+        top: 20rem;
+    }
+}
+.docs__sidebar ul li a {
+    display: block;
+    padding: 0.5rem 3rem;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding-bottom: 40rem;
+}
+
+section {
+    padding: 2rem;
+    margin: 0 0 2rem 0;
+    width: 60vw;
+}

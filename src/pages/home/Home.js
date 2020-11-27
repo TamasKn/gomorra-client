@@ -40,7 +40,7 @@ const Home = () => {
 
     return (
         <div className="content-wrapper">
-            <section className="home__container">
+            <div className="home__container">
                 {
                     (characters.length !== 0)
                     ?
@@ -59,7 +59,7 @@ const Home = () => {
                     : <h3>LOADING...</h3>
                 }
 
-            </section>
+            </div>
         </div>
     );
 }
