@@ -1,0 +1,12 @@
+{
+    "success": true,
+    "data": {
+        "id": 56,
+        "victim": "'O Mulatto",
+        "cause": "Multiple shots in the chest",
+        "perpetrator": "Rosario",
+        "body_count": 1,
+        "season": 2,
+        "episode": 11
+    }
+}
