@@ -1,5 +1,6 @@
 const Usage = () => (
-    <section id="section-3">
+    <section>
+        <div className="anchor-point" id="section-3" />
         <h1>Usage and contribution</h1>
         <hr/><br/>
         <p>

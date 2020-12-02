@@ -1,14 +1,14 @@
 {
-    "success": true,
-    "data": [
-        {
-            "id": 75,
-            "victim": "Capaebomba",
-            "cause": "Shot in the head",
-            "perpetrator": "'Ndrangheta member",
-            "body_count": 1,
-            "season": 3,
-            "episode": 4
-        }
-    ]
+  "success": true,
+  "data": [
+      {
+        "id": 75,
+        "victim": "Capaebomba",
+        "cause": "Shot in the head",
+        "perpetrator": "'Ndrangheta member",
+        "body_count": 1,
+        "season": 3,
+        "episode": 4
+      }
+  ]
 }

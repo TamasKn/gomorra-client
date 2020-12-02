@@ -1,7 +1,8 @@
 import SingleLine from "../../../components/codeContainer/SingleLine";
 
 const BaseURI = () => (
-    <section id="section-1">
+    <section>
+        <div className="anchor-point" id="section-1" />
         <h1>Base URI</h1>
         <hr/>
 

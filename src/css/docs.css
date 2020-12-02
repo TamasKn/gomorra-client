@@ -36,13 +36,18 @@
     text-decoration: none;
 }
 
+.anchor-point {
+    height: 150px;
+    visibility: hidden;
+}
+
 main {
     padding-bottom: 40rem;
 }
 
 section {
     padding: 2rem;
-    margin: 0 0 2rem 0;
+    margin: -150px 0 2rem 0;
     width: 60vw;
 }
 
@@ -78,3 +83,36 @@ table td {
 .docs__order p {
     margin: .8rem 0;
 }
+
+@media screen and (max-width: 550px) {
+    table {
+        font-size: 1.4rem;
+        width: inherit;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .docs__container {
+        display: block;
+    }
+
+    .docs__sidebar {
+        width: auto;
+        position: sticky;
+        top: 0;
+        background-color: #000000;
+    }
+
+    .docs__sidebar ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .docs__sidebar--sublist {
+        text-indent: unset;
+    }
+}
+

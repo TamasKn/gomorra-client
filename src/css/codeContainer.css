@@ -25,3 +25,14 @@
     padding: .5rem .5rem;
     border-radius: 2px;
 }
+
+@media screen and (max-width: 550px) {
+    .code__format {
+        font-size: 1.4rem;
+        margin: 2rem 0;
+    }
+
+    .code__multi-line {
+        width: 45rem;
+    }
+}

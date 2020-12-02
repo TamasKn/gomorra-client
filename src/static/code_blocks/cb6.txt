@@ -1,11 +1,11 @@
 {
-    "success": true,
-    "data": [
-        {
-            "id": 11,
-            "title": "Cento modi per uccidere",
-            "season": 1,
-            "episode": 11
-        }
-    ]
+  "success": true,
+  "data": [
+    {
+      "id": 11,
+      "title": "Cento modi per uccidere",
+      "season": 1,
+      "episode": 11
+    }
+  ]
 }

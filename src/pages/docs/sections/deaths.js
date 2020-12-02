@@ -2,7 +2,8 @@ import SingleLine from "../../../components/codeContainer/SingleLine";
 import MultiLines from "../../../components/codeContainer/MultiLines";
 
 const Deaths = () => (
-    <section id="section-2.2">
+    <section>
+        <div className="anchor-point" id="section-2.2" />
         <h2>Deaths</h2>
         <br/>
 

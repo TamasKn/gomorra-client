@@ -1,7 +1,8 @@
 import SingleLine from "../../../components/codeContainer/SingleLine";
 
 const Endpoints = () => (
-    <section id="section-2">
+    <section>
+        <div className="anchor-point" id="section-2" />
         <h1>Endpoints</h1>
         <hr/>
 

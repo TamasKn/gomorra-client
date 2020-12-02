@@ -1,5 +1,6 @@
 const Install = () => (
-    <section id="section-4">
+    <section>
+        <div className="anchor-point" id="section-4" />
         <h1>Install locally</h1>
         <hr/><br/>
 
