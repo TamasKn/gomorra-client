@@ -1,0 +1,42 @@
+.terms__container {
+    display: flex;
+    flex-direction: column;
+    color: var(--secondary-font-color);
+    align-items: center;
+}
+
+.terms__content {
+    text-align: left;
+}
+
+.terms__content h1 {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.terms__content h2 {
+    margin: 2rem 0;
+}
+
+.terms__content p {
+    max-width: 70rem;
+    margin: 1rem 0;
+}
+
+.terms__content a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.terms__content ul {
+    padding-left: 2rem;
+}
+
+@media screen and (max-width: 550px) {
+    .terms__container {
+        font-size: 1.4rem;
+    }
+    .terms__content p {
+        padding: 0 2.5rem;
+    }
+}
