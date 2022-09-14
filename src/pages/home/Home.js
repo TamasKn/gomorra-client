@@ -10,7 +10,7 @@ const Home = () => {
 
     useEffect(() => {
         async function fetchData() {
-            const resp = await axios.get("https://gomorra-api.herokuapp.com/characters/placeholder")
+            const resp = await axios.get("https://gomorra-api.onrender.com/characters/placeholder")
             setCharacters(resp.data)
         }
 

@@ -7,7 +7,7 @@
       "nickname": "'O Track",
       "occupation": "Dealer, Boss",
       "clan": "Savastano, Ragazzi del Vicolo",
-      "picture": "https://gomorra-api.herokuapp.com/12.JPG",
+      "picture": "https://gomorra-api.onrender.com/12.JPG",
       "status": "Deceased",
       "seasons": [
           1,

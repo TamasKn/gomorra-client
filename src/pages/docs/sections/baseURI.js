@@ -6,7 +6,7 @@ const BaseURI = () => (
         <h1>Base URI</h1>
         <hr/>
 
-        <SingleLine>{"https://gomorra-api.herokuapp.com/"}</SingleLine>
+        <SingleLine>{"https://gomorra-api.onrender.com/"}</SingleLine>
 
     </section>
 )

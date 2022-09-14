@@ -6,7 +6,7 @@
      "nickname": "Immortale",
      "occupation": "Enforcer, Boss",
      "clan": "Savastano, Di Marzio",
-     "picture": "https://gomorra-api.herokuapp.com/1.JPG",
+     "picture": "https://gomorra-api.onrender.com/1.JPG",
      "status": "Alive",
      "seasons": [
          1,

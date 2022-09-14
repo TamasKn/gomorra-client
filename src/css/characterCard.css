@@ -13,7 +13,7 @@
 .card--image {
     height: 83%;
     width: inherit;
-    background-image: url("https://gomorra-api.herokuapp.com/1.JPG");
+    background-image: url("https://gomorra-api.onrender.com/1.JPG");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
